@@ -18,8 +18,7 @@
 set -e
 
 export DEVICE=h872
-export DEVICE_COMMON=g6-common
-export PLATFORM_COMMON=msm8996-common
+export DEVICE_COMMON=msm8996-common
 export VENDOR=lge
 
-./../$PLATFORM_COMMON/setup-makefiles.sh $@
+./../$DEVICE_COMMON/setup-makefiles.sh $@
