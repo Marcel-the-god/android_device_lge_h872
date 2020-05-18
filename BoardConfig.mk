@@ -16,8 +16,8 @@
 
 DEVICE_PATH := device/lge/h872
 
-# inherit from common g6
--include device/lge/g6-common/BoardConfigCommon.mk
+# inherit from common msm8996
+-include device/lge/msm8996-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := g6,lucye,h872
 
