@@ -14,10 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_h872.mk
+    $(LOCAL_DIR)/rr_h872.mk
 
 	
 COMMON_LUNCH_CHOICES := \
-    aicp_h872-user \
-    aicp_h872-userdebug \
-    aicp_h872-eng
+    rr_h872-user \
+    rr_h872-userdebug \
+    rr_h872-eng
